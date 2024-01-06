@@ -19,7 +19,7 @@ def get_stream_url(username='룩삼오피셜'):
         print(f'{username}을 찾지 못했습니다.')
 
 st.title("Audio Finder")
-username = st.text_input("Enter Chzzk username:", placeholder='룩삼오피셜')
+username = st.text_input("Enter Chzzk username:", value='룩삼오피셜', placeholder='치지직 닉네임')
 
 if username:
     stream_url_low, stream_url_high = get_stream_url(username)
