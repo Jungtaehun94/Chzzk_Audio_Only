@@ -1,5 +1,7 @@
 import streamlit as st
-import requests,m3u8,json
+import requests
+import m3u8
+import json
 
 def get_stream_url(username='룩삼오피셜'):
     req_result = requests.get(f"https://api.chzzk.naver.com/service/v1/search/channels?keyword={username}")
