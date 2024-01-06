@@ -1,4 +1,4 @@
 json
-m3u8
+m3u8 == 4.0.0
 json
 streamlit
